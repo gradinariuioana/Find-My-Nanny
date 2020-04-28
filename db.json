@@ -6,19 +6,67 @@
       "lastName": "Ioana",
       "age": 21,
       "address": "Statiunii, Suceava, Romania",
-      "phoneNumber": "0741014432",
-      "photoUrl": "https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg"
+      "phoneNumber": "0770707070",
+      "photoUrl": "https://cdn.pixabay.com/photo/2016/11/29/03/36/beautiful-1867093__340.jpg"
     },
     
     {
       "id":2,
-      "firstName": "Gradinariu",
-      "lastName": "Teodora",
-      "age": 10,
+      "firstName": "Aldescu",
+      "lastName": "Andreea",
+      "age": 30,
       "address": "Statiunii 20, Suceava, Romania",
-      "phoneNumber": "0740165382"
+      "phoneNumber": "0712345678",
+      "photoUrl": "https://pixabay.com/get/52e4dd434e56a814f6d1867dda35367b1d37dee25552784a_1920.jpg"
+    },
+    
+    {
+      "id":3,
+      "firstName": "Andronic",
+      "lastName": "Larisa",
+      "age": 25,
+      "address": "Magurei 20, Suceava, Romania",
+      "phoneNumber": "0711223344",
+      "photoUrl": "https://pixabay.com/get/54e7d5464c56ae14f6d1867dda35367b1d37dee255557448_1920.jpg"
+    },
+    {
+      "id":4,
+      "firstName": "Cristea",
+      "lastName": "Iulia",
+      "age": 22,
+      "address": "Aleea Lalelelor 10, Suceava, Romania",
+      "phoneNumber": "0788888888",
+      "photoUrl": "https://cdn.pixabay.com/photo/2017/08/01/08/29/people-2563491_960_720.jpg"
+    },
+    {
+      "id":5,
+      "firstName": "Popovici",
+      "lastName": "Gina",
+      "age": 26,
+      "address": "George Enescu, Suceava, Romania",
+      "phoneNumber": "0777777777",
+      "photoUrl": "https://cdn.pixabay.com/photo/2017/06/24/02/56/art-2436545__340.jpg"
+    },
+    {
+      "id":6,
+      "firstName": "Popescu",
+      "lastName": "Amalia",
+      "age": 27,
+      "address": "Oituz 21, Suceava, Romania",
+      "phoneNumber": "0766666666",
+      "photoUrl": "https://cdn.pixabay.com/photo/2016/03/23/04/01/beautiful-1274056__340.jpg"
+    },
+    {
+      "id":7,
+      "firstName": "Andrei",
+      "lastName": "Andreea",
+      "age": 22,
+      "address": "Aleea Lalelelor 10, Suceava, Romania",
+      "phoneNumber": "0755555555",
+      "photoUrl": "https://cdn.pixabay.com/photo/2018/07/21/03/55/girl-3551832__340.jpg"
     }
   ],
+
   "profile": {
     "name": "typicode"
   }
