@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small">10dp</dimen>
+    <dimen name="xsmall">5dp</dimen>
+    <dimen name="medium">20dp</dimen>
+    <dimen name="large">40dp</dimen>
+    <dimen name="btn">50dp</dimen>
+    <dimen name="image">60dp</dimen>
+    <dimen name="big_text">18sp</dimen>
+    <dimen name="image_large">100dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nanny_info"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginBottom="@dimen/xsmall"
+    android:layout_marginLeft="@dimen/small"
+    android:layout_marginRight="@dimen/small"
+    android:layout_marginTop="@dimen/xsmall"
+    android:background="@color/background">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/image"
+        android:layout_height="@dimen/image"
+        android:elevation="12dp"
+        android:id="@+id/card"
+        app:cardCornerRadius="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/small"
+        android:scaleType="centerCrop"
+        >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/nanny_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/nanny_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/small"
+        android:layout_toEndOf="@id/card"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/small"
+            android:id="@+id/nanny_first_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/nanny_address"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nanny_first_name"
+                android:layout_alignParentStart="true"
+                android:textSize="@dimen/big_text"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/nanny_first_name"
+                android:id="@+id/nanny_last_name"
+                android:layout_marginStart="@dimen/xsmall"
+                android:textSize="@dimen/big_text"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/nanny_last_name"
+                android:id="@+id/nanny_age"
+                android:layout_marginStart="@dimen/small"
+                android:textSize="@dimen/big_text"
+                android:textStyle="italic"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/nanny_address"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nanny_first_line"
+            app:layout_constraintBottom_toTopOf="@id/nanny_phone_number"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/nanny_phone_number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nanny_address"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

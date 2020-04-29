@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/large"
+            android:layout_marginRight="@dimen/large">
+
+            <EditText
+                android:id="@+id/email_input_li"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/big_text" />
+
+            <EditText
+                android:id="@+id/password_input_li"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email_input_li"
+                android:layout_marginTop="@dimen/medium"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textSize="@dimen/big_text" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btSignUp"
+            android:layout_marginBottom="@dimen/small"
+            android:layout_marginLeft="@dimen/medium"
+            android:layout_marginRight="@dimen/medium"
+            android:text="@string/signin_btn"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/btSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/medium"
+            android:layout_marginLeft="@dimen/medium"
+            android:layout_marginRight="@dimen/medium"
+            android:text="@string/signup_btn"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
